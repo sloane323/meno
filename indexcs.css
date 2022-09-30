@@ -1,0 +1,250 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#conts {
+    position:absolute;
+    left: 30%;
+    top:20%;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 30px;
+    padding: 40px;
+    width: 500px;
+    border-radius: 100px 100px 100px 0px;
+
+}
+
+#clock {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+
+ul li {
+   list-style-type: none;
+}
+
+#clock {
+    font-size: 500%;
+}
+
+#loginform {
+    text-align: center;
+}
+
+
+#title , #loginform {
+    font-size: small;
+    font-family: 'Raleway', sans-serif;
+}
+
+#name {
+    height:50px;
+    width: 50%;
+    font-size: 15px;
+    border: 40px;
+    border-radius: 100px 100px 100px 0px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
+
+  }
+
+#todo {
+    height:50px;
+    width: 70%;
+    font-size: 15px;
+    border: 40px;
+    border-radius: 100px 100px 100px 0px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255,0.1);
+
+  }
+
+.button {
+    height:50px;
+    font-weight: 600;
+    width: 50px;
+    font-size: 15px;
+    border: 40px;
+    border-radius: 100px 100px 100px 100px;
+    outline: none;
+    color: azure;
+    background-color: rgba(45, 111, 173, 0.5);
+}
+
+input[type="radio"] {
+    accent-color: rgba(45, 111, 173, 0.5);
+}
+
+
+
+
+  .hidden {
+    display: none;
+  }
+
+
+  .button2 {
+    height:20px;
+    font-weight: 300;
+    width: 20px;
+    font-size: 10px;
+    border: 40px;
+    border-radius: 100px 100px 100px 0px;
+    outline: none;
+    color:white;
+    background-color: rgb(216, 42, 42);
+
+  }
+
+#todoboard li button {
+    display:inline;
+    margin-left: 10px;
+    height:20px;
+    font-weight: 300;
+    width: 20px;
+    font-size: 10px;
+    border: 40px;
+    border-radius: 100px 100px 100px 0px;
+    outline: none;
+    color:white;
+    background-color: rgb(231, 126, 100);
+}
+
+
+
+#todo-form {
+    text-align: left;
+}
+
+
+  @media screen  and (max-width: 650px )    { 
+    
+    
+
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    
+    #conts {
+        position:absolute;
+        left: 10%;
+        top:10%;
+        margin:auto;
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 30px;
+        padding: 40px;
+        width: auto;
+        min-width: 300px;
+        border-radius: 100px 100px 100px 0px;
+    
+    }
+    
+    #clock {
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+    }
+    
+    
+    ul li {
+       list-style-type: none;
+    }
+    
+    #clock {
+        font-size: 500%;
+    }
+    
+    #loginform {
+        text-align: center;
+    }
+    
+    
+    #title , #loginform {
+        font-size: small;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #name {
+        height:50px;
+        width: 50%;
+        font-size: 15px;
+        border: 40px;
+        border-radius: 100px 100px 100px 0px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-left: 10px;
+    
+      }
+    
+    #todo {
+        height:50px;
+        width: 70%;
+        font-size: 15px;
+        border: 40px;
+        border-radius: 100px 100px 100px 0px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255,0.1);
+    
+      }
+    
+    .button {
+        height:50px;
+        font-weight: 600;
+        width: 50px;
+        font-size: 15px;
+        border: 40px;
+        border-radius: 100px 100px 100px 100px;
+        outline: none;
+        color: azure;
+        background-color: rgba(45, 111, 173, 0.5);
+    }
+    
+    
+      .hidden {
+        display: none;
+      }
+    
+    
+      .button2 {
+        height:20px;
+        font-weight: 300;
+        width: 20px;
+        font-size: 10px;
+        border: 40px;
+        border-radius: 100px 100px 100px 0px;
+        outline: none;
+        color:white;
+        background-color: rgb(216, 42, 42);
+    
+      }
+    
+    #todoboard li button {
+        display:inline;
+        margin-left: 10px;
+        height:20px;
+        font-weight: 300;
+        width: 20px;
+        font-size: 10px;
+        border: 40px;
+        border-radius: 100px 100px 100px 0px;
+        outline: none;
+        color:white;
+        background-color: rgb(231, 126, 100);
+    }
+    
+
+    
+    
+    #todo-form {
+        text-align: left;
+    }
+    
